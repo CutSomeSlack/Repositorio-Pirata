@@ -4,8 +4,6 @@ Colección de libros digitales con licencias Creative Commons o sin licencia alg
 
 ACERCA DE ESTE REPO
 
-====== == ==== ====
-
 Esta colección de libros digitales fue creada con la esperanza de cambiar el mundo.
 Es el resultado de años de recopilación, y ahora es nuestro.
 Hacé buen uso del mismo: dedicale las horas de lectura que se merece, contactá a los autores, reseñá el contenido que más te haya influenciado y, si está dentro de tus posibilidades, doná dinero a los autores y/o comprá sus libros.
