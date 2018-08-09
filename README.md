@@ -14,4 +14,4 @@ Hacé tu parte. No te canses de compartir.
 
 Con amor,
 
-						SLACKO
+						@CutSomeSlack
