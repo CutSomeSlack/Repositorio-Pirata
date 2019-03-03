@@ -1,0 +1,758 @@
+The Right(s) to the Hybrid City and the Role of DIY Networking
+
+Panayotis Antoniadis^1 & Ileana Apostol^2
+
+ 1. Senior Researcher, Department of Information Technology and Electrical
+    Engineering, ETH Zurich, Zurich, Switzerland. Email:
+    panayotis.antoniadis@tik.ee.ethz.ch
+ 2. Senior Researcher, Department of Architecture, ETH Zurich, Zurich,
+    Switzerland.
+
+INTRODUCTION
+
+More and more urban space becomes inherently hybrid since information and
+communication technology (ICT) acts as a mediator for interactions between
+people residing in close physical proximity for varied time periods, from
+neighbours to passers-by and strangers in public spaces. This hybrid realm has
+the capability to support novel types of communication between citizens and
+local authorities. For example, authorities can share rich data sets with
+citizens and application providers, and citizens are empowered to generate
+useful information for authorities during their everyday activities such as in
+the crowdsourcing and citizen science paradigms. Moreover, ICTs can also
+provide a virtual spatial framework for e-participation and online
+deliberations (e.g. Horelli, 2013; Houghton et al., 2013). Urban and community
+informatics are some of the emerging interdisciplinary fields that bring
+together knowledge from computer and social sciences and study the role of
+technology and its design in various urban settings (see Foth 2009; Foth et
+al., 2012; Gurstein, 2010).
+
+Virtual space is increasingly becoming part of the physical material space in
+cities with a digital infrastructure. Signage in public spaces that points at
+specific virtual locations, using text (Internet URL addresses), 2D barcodes
+and posters, or other physical artefacts may be permanent or mobile, as in the
+case of the yellowchair project^1 , an art installation by Arab Jain in San
+Jose, California, that encourages residents who are willing to share their
+private WiFi to place a yellow chair on the public sidewalk to signal the
+presence of free access to the Internet, but also to stimulate playful
+interactions between strangers, such as recipe sharing. In more advanced
+scenarios the physical space for public life can become the container of
+virtual interactions-through the use of public interactive displays and the
+flexible embodied interactions that smartphones and location-based mobile
+applications enable (e.g. Farman, 2012).
+
+However, technology can both further and hinder local communication. On the one
+hand, it allows efficient asynchronous information sharing and organization
+(Shirky, 2008); the creation and maintenance of multiple overlapping social
+networks (Rainie & Wellman, 2012); and a more flexible self-representation and
+engagement for individuals (Turkle, 1995). On the other hand, the capabilities
+that make it easier to browse and filter our physical environment are also
+rendering invisible "the different others", even if they may be standing next
+to us (Turkle, 2012; Wilken, 2010; Crawford, 2008).
+
+At the same time, the use of ICTs is subject to various types of digital
+divides and their design requires specialized knowledge, shifting the power
+balance in favour of the hosting companies-usually large corporations-and their
+programmers (Mansell, 2012). But most importantly, these corporations freely
+acquire tremendous amounts of data that generate invaluable knowledge regarding
+human behaviour in ICT-mediated communications, which is often used to achieve
+private, commercial objectives in ways that are not transparent to the rightful
+owners of this information (e.g. Tufekci 2014).
+
+This means that the simple existence of ICTs is not sufficient to guarantee to
+citizens their rights to the hybrid city. It is the actual design of the
+evolving hybrid urban spaces, and the responsible use of generated digital
+information that will determine whether ICT's promises for increased civic
+engagement, participation, and community building will be materialized. In the
+following research note we make an initial effort to formulate an updated
+version of the "right to the city" concept that takes into account the complex
+hybrid urban environments created through the contemporary uses of ICTs. We
+then propose a specific application concept that would facilitate information
+sharing between strangers in the city and analyze the unique characteristics of
+wireless technology that render the possibility of DIY (do-it-yourself)
+networking a very attractive alternative for such local interactions. We posit
+that an appropriate combination of user-owned wireless networks and open source
+social software can make a difference in today's "globalized" Internet by
+enabling citizens to develop their own local solutions, and claim their right
+to access, representation, participation and ownership in the hybrid city.
+
+THE RIGHT(S) TO THE HYBRID CITY
+
+The phrase "the right to the city", coined by Henri Lefebvre in 1968, is
+subject today to various definitions and interpretations, and according to
+Christian Schmid (2012), "often serves just as a kind of conceptional umbrella
+for all types of political and social demands that generally address the
+problems arising in urban areas today" (42). Part of the confusion is due to
+the complexity of the "city" or urban concept itself, considering that in the
+last decades urban space has been the product of "planetary urbanization"
+processes (Lefebvre, 2003; Brenner & Schmid, 2011); at the confluence between
+the "space of places" and the "space of flows" (Castells, 2005); and
+manifesting in everyday life practices as an interplay between conceptual,
+material and lived space (Lefebvre, 1991).
+
+Within this complexity in the understandings of urban space we identify the
+following important individual rights that are part of the "right to the city"
+concept, and will help us draw useful analogies between physical and virtual
+spaces:
+
+ 1. The right to access the core resources of the city;
+ 2. The right to be represented, to be part of the collective identity;
+ 3. The right to participate in important decisions, such as urban policies and
+    design;
+ 4. The right to ownership of the urban commons, which refers to commonly held
+    property, and use, stewardship and management in common of the available
+    and produced resources.
+
+This idea of a right to ownership of urban spaces, for instance, has been
+stressed by urban planning theorist John Friedmann (1993, 139), who has stated
+that "a city can truly be called a city only when its streets belong to the
+people" (cited by Schmid, 2012). How can this and our other fundamental rights
+be translated into more complex ones, such as the control of the urbanization
+process or the right to self-determination? To whom should these rights be
+granted, and under which political processes? These are challenging questions
+that are out of the scope of this paper (for a more in depth analysis about the
+"right to the city" concept, see Lefebvre, 1996; Friedmann, 1993; Harvey, 2008;
+Brenner et al., 2012). Instead we choose to focus on analyzing our set of four
+specific rights applied to the hybrid-digital and physical-space in the city.
+
+A key objective at this early stage in our work is to highlight the fact that
+these different fundamental rights are also conveyed-explicitly or
+implicitly-to those participating at the overlaid virtual space of the hybrid
+city. Today it is mostly large corporations like Google, Facebook and Twitter
+that control the virtual social interactions at a global scale, but also at
+localities offering, among others, "geo-social" services^2 that allow people to
+connect with friends and similar others while in physical proximity (see also
+Farman, 2012). Alas, to offer this service, these companies record over time
+the locations of all interested parties, and store them in servers located very
+far away from the actual place where these ICT-mediated "contacts" occur.
+
+Note that even if these online social networks have been positively connected
+with recent urban uprisings and political struggles for the "right to the city"
+(e.g. Gezi Park in Istanbul), they are themselves highly privatized spaces.
+Their owners have significant power over the design of important software
+details and the management of all collected data, ranging from multimedia
+content (e.g. photos and videos) to private information (e.g. location and
+profile) and patterns of activity (e.g. reactions to stimulation and time spent
+online). This complete lack of ownership and control of these platforms on the
+users' behalf poses significant threats related to privacy, surveillance,
+censorship, and manipulation, which should not be underestimated (e.g. Tufekci,
+2014; Morozov, 2013).
+
+Despite the increasing public awareness of the threats posed by the
+concentration of huge amounts of private information in the hands of a few
+corporations, the key questions remain open: What is a viable alternative in
+terms of hardware and software? And under which participatory processes and
+ownership structures can citizens appropriate the virtual space that overlays
+their physical environment? In other words, which are the "virtual" versions of
+participatory spatial design today and in the future?
+
+Alternative technical solutions for the design of hybrid space do exist and can
+distribute differently the power between users, administrators, and owners of
+the platform; but they also have their own costs and limitations. For example,
+social engines, like Ning which is a popular solution for building local online
+communities, offer many options for customization and allow Internet users to
+build and manage their own online social networks either individually or in
+groups; but often subject to a yearly fee, especially for premium services,
+while all data generated are under the control of the hosting company. The
+options for participation in design are richer in the case of custom web sites
+either built from scratch or based on free and open source software like Drupal
+. But this flexibility comes at a cost. The complexity of implementation,
+deployment, and maintenance increases, in addition to the different issues of
+trust that arise. For instance, global platforms are less prone to failures and
+thus are better at ensuring the reliability and security of shared information
+(within the system). Moreover, there are still various intermediaries with
+significant power as gatekeepers, like the Internet service and web hosting
+providers, the web designer, and the local administrator of the platform.
+Finally, Peer-to-Peer (P2P) online social networks like Diaspora aim to
+decrease the dependence on these intermediate actors, but they further increase
+the other associated costs, while their operation still depends on the public
+Internet.
+
+So, although in terms of software these alternative solutions can provide
+support for citizens to claim their rights to the hybrid city, they suffer from
+an inherent difficulty in attracting the required critical mass of participants
+due to the aforementioned costs; especially when having to compete with global
+platforms that enjoy enormous financial support and can take advantage of the
+significant economies of scale.
+
+A key objective of this research note is to draw attention to the capabilities
+of wireless (WiFi) technology to provide a complementary low-cost and
+local-only communication infrastructure, which can operate outside the public
+Internet (see Jungnickel, 2014; Antoniadis et al., 2014). This DIY networking
+option enables small organizations or even individuals to literally own the
+infrastructure that supports their hybrid space, and with it all generated
+digital information. In this circumstance the space for experimentation with
+different forms of common ownership and appropriation of the hybrid urban space
+opens significantly and allows the complete avoidance of the mediation of
+global corporations and other digital intermediaries. In this way the vision of
+supporting, and enhancing ownership as a "sense of belonging to a collective
+place, commitment to a collective issue, and willingness to share a private
+resource with the collective" (de Lange and de Waal, 2013) may be realized.^3
+
+Moreover, in the case of local-only hybrid applications, participation in the
+virtual interactions requires actual physical presence, ensured without the
+disclosure of private information to third parties. We see this inherently
+limited accessibility to those in physical proximity as a desirable aspect of
+such technology that needs to be exploited by the corresponding software and
+urban interventions. The design goal is not to replace the existing global
+platforms, but rather to augment them when the envisioned communication is
+indeed local in nature. Before elaborating more on the advantages of using
+wireless technology to communicate in local urban contexts outside the public
+Internet, the section below will describe a local application that is practical
+and has both social and political implications, while illustrating a creative
+combination of wireless networks, open source social software and urban
+interaction design.
+
+THE HYBRID SIDEWALK
+
+The urban street and its sidewalks may be seen as an extension of the personal
+space of city residents, analogous to the role that the vast natural landscape
+plays for the countryman (Sansot, 2004). In that sense, sidewalks are physical
+manifestations of a right to the city for its inhabitants, in terms of: a)
+providing access and possibilities for expression and representation, b)
+allowing to be present, to go about one's business freely in the midst of
+fellow citizens and to participate in social exchanges and activities, and
+nevertheless, c) granting ownership of the public space.
+
+The context we discuss here is the example of social exchanges at the sidewalk
+level. The mingling of passers-by is evanescent, and opened to new
+possibilities. As Joseph (1984) notes, "in public spaces, the most important
+relationships are those that we don't have yet!" (130). The magical universe of
+the diverse and unexpected on the sidewalk creates through serendipity and
+spontaneous entertainment a temporary sense of community. Hence, following a
+long tradition of scholars (e.g. Simmel, 1903; Lynch, 1960; Jacobs 1961;
+Goffman, 1967; Sennett, 1977; De Certeau, 1984; Whyte, 1988; Debord, 1996)
+celebrating the importance of informal interactions, and for that the special
+role of strolling and drifting in the city, one of the premises of our work is
+that the facilitation of information sharing between citizens in informal
+settings-without the intervention of mediating institutions-is of critical
+importance to fostering comprehensive understandings of the lived environment
+and toward the appropriation of urban space.
+
+Therefore, the design and implementation of ICT applications in the hybrid city
+ought to include the benefits of traditional sidewalks, which Jane Jacobs
+praised as places for essential informal interactions between strangers that
+can achieve a very delicate balance between privacy and public exposure. In her
+own words:
+
+    "The sum of such casual, public contact at a local level - most of it
+    fortuitous, most of it associated with errands, all of it metered by the
+    person concerned and not thrust upon him by anyone - is a feeling for the
+    public identity of people, a web of public respect and trust, and a
+    resource in time of personal or neighborhood need. The absence of this
+    trust is a disaster to a city street. Its cultivation cannot be
+    institutionalized. And above all, it implies no private commitments."
+
+(Jacobs, 1961, 56, emphasis in original).
+
+If carefully designed, hybrid ICT applications that enable spontaneous
+information sharing between strangers can offer new ways to support the role of
+the sidewalk in contemporary cities, for generating local knowledge and a sense
+of belonging. This knowledge can then inform the participation of individuals
+in more explicit processes, as in e-planning and online deliberation systems.
+Currently in participatory processes, citizens are asked for either
+quantitative data, as in the crowd sourcing and citizen science paradigms, or
+for qualitative information, as in e-planning and online deliberation systems
+(see Foth et al., 2012; Horelli, 2013; DeCindio & Schuler, 2012). But in
+addition to asking citizens explicitly to provide information from their
+personal perspective, it is of critical importance that citizens exchange
+information between them in informal settings, and in ways that can increase
+their environment awareness and help them build some sort of shared public
+identity (see Apostol et al., 2013).
+
+As public locations and urban neighborhoods bring strangers together, they have
+the capability to stimulate various degrees of awareness of the other's
+presence, condition, behavior, and actions. In many cases those in physical
+proximity do not necessarily share the same interests and background, and so
+their interaction and information exchanges can expose them to diversity. Yet
+exposure to diversity is controlled and limited by the broad range of privately
+owned spaces for public life, as well as by today's highly efficient and
+personalized online tools. The good news is that in the hybrid realm, the
+physical proximity offers opportunities for face-to-face encounters and common
+activities (that sometimes are stimulated, and extend the superficial or
+short-term online exchanges).
+
+But how do our four aforementioned rights to the hybrid city influence the
+successful deployment of a hybrid ICT application to facilitate information
+sharing in the neighbourhood or in public spaces? And how can wireless
+technology play an important role in this direction? Before answering these
+questions we explore the concrete examples of two real life applications, which
+can be seen as two extremes in terms of the rights they offer to their
+participants. They are the social street movement in Italy and the RedHook WiFi
+initiative in Brooklyn, NY.
+
+In September 2013, Federico Bastiani together with local journalists and
+residents of Via Fondazza, a street in the historic centre of Bologna, started
+the social street movement. This movement's purpose is:
+
+    "to promote socialization between neighbours in the same street in order to
+    build relationships, to interchange needs, to share expertise and
+    knowledge, to implement common interest projects, with common benefits from
+    a closer social interaction. To reach this zero cost objective, without
+    opening new sites or platforms, Social Street makes use of the creation of
+    Facebook closed groups." (citation from website^4 )
+
+Arguably the perception of a "zero cost" by using the freely available and
+already popular Facebook platform is somewhat an illusion, since there are
+important associated costs with this platform choice, many of them directly
+related to our four rights.
+
+First, participation through the social network requires access to the
+Internet, agreement to its terms of service, and feeling comfortable to reveal
+to neighbours private information, available through one's Facebook profile.
+Therefore, the collective image produced in this localized Bologna online
+environment would be at best incomplete, by excluding those that do not have a
+Facebook account and/or Internet access; and it would be influenced or even
+manipulated by the numerous small but important design details externally
+decided by Facebook. Notice also that these details are exactly the same for
+all the social streets in Italy, and for all places in the world. They include,
+among many others, the presentation order of the various posts and the
+moderation rights of the administrator, the level of anonymity allowed, the
+permanence of the recorded information over time, and the user interface like
+wording, colours and menu items. Finally, all the information generated-both
+textual and visual-is recorded and owned by Facebook, and can be exploited for
+commercial or other purposes, raising serious threats related to privacy,
+surveillance, and censorship.
+
+It is easy to see, of course, the important benefits of relying on popular
+social networks, due to their high usability and already acquired critical mass
+of users. However, there is no reason why one should not make an effort to
+provide tools for citizens to build easily, and customize their local networks
+and applications when these are meant to support local interactions. For
+example, Jonathan Baldwin a few years ago, while being a master student at
+Parsons The New School for Design in New York City, led the creation of a
+small-scale community wireless network in the Red Hook neighbourhood in
+Brooklyn, in collaboration with the Open Technology Institute^5 (Baldwin,
+2011). The network is still in operation. In addition to shared Internet
+access, it facilitates local interactions for all residents and passers-by,
+requiring only access to a public or private computing device with a WiFi card
+and a web browser.
+
+This can be achieved through the use of a captive portal or splash page hosted
+locally on the wireless network, a local web page visited by default by
+connected devices, when a web browser is launched. In airports, hotels, or
+coffee shops, such web pages welcome users before granting them access to the
+Internet, sometimes requiring the creation of an account. But in this wireless
+scenario, the local captive portal will in addition host interactions between
+potentially anonymous users within physical proximity.
+
+In the Brooklyn case, a participatory design process with local residents
+preceded the design of all supported applications such as chatting; inquiries
+regarding local bus schedules; a custom designed mapping application called
+Tidepools-all of which are open source and thus subject to improvements.
+Finally, the infrastructure and stored information remains under the control of
+the local Red Hook Initiative (RHI), a Brooklyn non-profit focused on creating
+social change through youth engagement (see: rhicenter.org). Similarly to
+collective barn-raising projects or the more ubiquitous nowadays, community
+gardens, these common activities offer spaces for personal encounters and
+interactions in physical proximity. So, instead of relying on private ICT
+platforms managed by commercial companies, there is the option to stimulate and
+empower citizens to use their creativity and become the "self-appointed public
+characters" (Jacobs, 1961), who can set up a local freely accessible network
+and invite people in a local community to participate in an "information
+sharing game" (Antoniadis & Apostol, 2013).
+
+There are unlimited options for the design of such games that are more or less
+close to our sidewalk metaphor. The types of information to be shared and the
+exact framing would depend on the context, but could include simple
+demographics (spoken languages, occupation, or gender); general preferences or
+location-based ones (favourite places, commerce or artistic activities, books,
+films, and music); multimedia material (audio, pictures, videos); opinions and
+thoughts on interesting perhaps controversial questions, even sensitive
+personal information since the wireless medium allows for purely anonymous
+interactions. The main motivation for participation could be the outcome, the
+display of the shared information which could take the form of playful or even
+statistically interesting visualizations as in today's popular life-logging (or
+quantified self) applications-though extended to a group of strangers in
+physical proximity. At the very least, these visualizations will satisfy
+feelings of curiosity about one's surroundings and could also form a basis for
+more advanced interactions and the creation of a temporary community (see
+Antoniadis et al, 2014). In addition to getting to know one's neighbours, we
+envision applications of the sort being particularly attractive in ephemeral
+situations where people co-exist with random strangers while passive or
+waiting, and/or when there is limited Internet connectivity. Examples of such
+situations are a long train or bus journey; a delayed or cancelled flight at
+the airport, time spent in ad-hoc gatherings on a beach, at a camping site or
+during public happenings like a cultural event at a public square; an
+intermission at a concert or a football match (see Antoniadis, Ott, &
+Passarella, 2014, 135-139).
+
+Although the creation and maintenance of this type of local network currently
+requires a high level of expertise, there are on-going efforts by various free
+and open source software (FOSS) communities to make the deployment of such
+networks easier for non-savvy users using off-the-shelf hardware such as a
+Rasberry Pi (piratebox.cc ^6) or a portable wireless router like the TP-link
+TL-MR3020 (occupyhere.org), which can cover confined public spaces like a
+square, a small park, or a train wagon. For larger areas, like the Red Hook
+neighbourhood, there are also efforts such as commotion.net or libre-mesh.org,
+which promise to make it easier for communities to build their own wireless
+mesh networks without relying on the expertise of motivated pioneers and
+tech-savvy members (see Jungnikel, 2014; Gaved & Mullholand, 2008). One of the
+objectives of our own nethood.org project is to extend these solutions to
+become more general and less politically charged, innovation platforms-a
+toolkit-, which will include a wide variety of hardware and software options to
+be customized according to the specific context (see Antoniadis & Apostol,
+2013).
+
+As a first step, in this note we argue why such an objective is important. For
+this, we analyze below some special characteristics of wireless technology that
+can play a key role in designing hybrid sidewalks that grant to citizens their
+"right to the hybrid city" and compete with similar Internet-based applications
+in terms of user experiences.
+
+DO-IT-YOURSELF NETWORKING (THINKING OUTSIDE THE INTERNET)
+
+Wireless technology allows for the creation of low-cost communication networks,
+often called wireless mesh networks or community wireless networks. Depending
+on the number of their nodes they can cover geographic areas of various sizes,
+ranging from a small public square or a small urban neighbourhood (Gaved &
+Mullholand, 2008; Baldwin, 2011); to a small town like Leiden in the
+Netherlands (van Oost et al, 2009); or large city-regions such as Barcelona (
+guifi.net), Berlin (freifunk.net) and Athens (awmn.net). Most of the existing
+operational wireless community networks are built by groups of tech savvy
+users, and outsiders see them mainly as gateways to free Internet access
+(Powell, 2011; Forlano, 2008; Sandivig 2004). However, one of the most
+important qualities of these WiFi networks is that they can offer options for
+communication outside the public Internet as highlighted by Antoniadis et al.
+(2008). There are community wireless networks today that prioritize the
+importance of local communications as the Redhook WiFi example (discussed
+above); or the Air-stream wireless community in South Australia. As stressed by
+the ethnographer Kat Jungnickel (2014), one of its "unique features is that it
+is not built for the purpose of sharing the internet. While many community
+wireless groups around the world use WiFi to provide free or low-cost access to
+the internet, Air-Stream are essentially making their own version of the
+internet, hence the description, 'Ournet, not the internet'". (26, emphasis in
+original). But even in such cases the core communities of highly motivated and
+tech savvy members hardly succeed to open up their local services beyond their
+close social circles (ibid, 51-2).
+
+Indeed, to build communities of proximity over local wireless mesh networks,
+one needs to build applications of high quality that are both highly attractive
+and usable, but also easy to adjust to the specific local context (i.e. what
+Facebook and Twitter are not able to do given the nature of their
+construction). The Redhook WiFi initiative illustrates that this is an
+attainable objective, yet there is still a lot of room for improvement
+especially in the areas of usability and customization. Part of our research
+work aims to address the various technical, social, and scientific challenges,
+which currently hinder the creation of attractive 'plug and play' solutions in
+localized contexts. To achieve these objectives one needs to understand in
+depth the unique characteristics offered by local wireless networks in contrast
+with the public Internet. For example, the following are four such technical,
+and thus objective, characteristics of a local-only community wireless network
+that can be exploited by local social applications which give them a
+competitive advantage over Internet-based solutions:
+
+De facto physical proximity. All potential members of a local wireless network
+are those that can see its network name, the service set identifier (SSID), in
+their list of accessible WiFi networks and are in de facto physical proximity.
+There is no need to disclose their physical location to a remote server (e.g.,
+through GPS) or provide other proofs of proximity before using the system as in
+the case of rather privacy intrusive services like NextDoor, which "requires
+new members to prove that they actually live at their claimed residences,
+either by allowing a one-cent transaction to be processed on a credit card tied
+to the address, by having an existing neighborhood member vouch for their
+identity, or by other means." (Stross, 2012).
+
+Inclusiveness. Local wireless networks are cheap to build, and they can be
+owned and maintained by local authorities, organizations, even individuals.
+They can provide free access to all, including visitors and tourists who might
+lack affordable access to the Internet. Moreover, local WiFi nets do not
+require the installation of any application beforehand or typing a web address
+on one's browser, thanks to the captive portal approach described above, and
+the fact that the SSID of the local wireless network is included by default in
+the list of all available SSIDs shown in one's device. This makes it very easy
+to join.
+
+Privacy and independence. All communications that take place in a local
+wireless network stay in principle local. The only way for an external entity
+to have direct access is either by placing on site physical devices connected
+to a surveillance infrastructure, which is very costly at large scale and
+difficult to remain unnoticed for long. Information leakages through individual
+devices, either intentionally by malicious users or unintentionally through
+software and hardware backdoors, are nevertheless possible and can never be
+deterministically excluded. But depending on the level of perceived risk, local
+communities can take precautions by engaging only in anonymous interactions,
+deleting often the information stored, etc. In addition to the significant
+psychological benefits, such as feelings of independence and playfulness, this
+characteristic has become more and more important after the public awareness of
+the NSA surveillance programs, uncovered by Edward Snowden, and of the
+aggressive online profiling policies, more and more discussed in the popular
+press (e.g. Clemons, 2013). Unlike Internet-based platforms, access to an
+"offline" wireless network entails privacy threats that can be limited by
+design, and which are by nature context-specific and localized, providing a
+space of intimacy and relative freedom for its members.
+
+Hybrid design. Being tangible infrastructure themselves, wireless networks can
+be naturally embedded in other artefacts and urban interventions, such as a
+public display, a coloured bench, a phone booth, or even a mobile kiosk, and
+they can create naturally hybrid spaces that encourage ephemeral participation
+and playful engagement (see Antoniadis et al, 2014). This enables the inclusion
+of non-users, as in the case of the hybrid letterbox designed by the Berlin
+Design Research Lab (Unteidig et al., 2014). Moreover, public WiFi nets can be
+subject to various failures, intentional or not, and thus promote by design the
+need for more face-to-face rather than virtual interactions (e.g., the
+administrator of a local wireless access point can easily unplug it during an
+organized face-to-face gathering).
+
+These technical characteristics of wireless networks influence directly the
+options available for granting citizens their rights to access and ownership of
+the virtual space that overlays their cities, but they also provide the
+appropriate environment for promoting the other two "qualitative" rights-those
+of representation and participation. For example, the quantity and quality of
+information exchanges, and the resulting representation of a collective
+identity, can significantly benefit from the feelings of intimacy and
+independence that local wireless networks offer, and from the possibility to
+communicate anonymously.
+
+Moreover, since by construction local wireless networks are meant to be
+installed, customized, and maintained by local actors, they offer unlimited
+capabilities for participatory design processes, which are subject to the
+flexibility offered by the software, the technical competence of the
+programmers, and the motivation of the local administrators and/or local
+authorities (see also Horelli, 2013; Saad-Sulonen & Botero, 2010). The many
+challenges that this shift of power to local actors generates (e.g., trust
+issues, addressing network failures, etc.) can also be seen as opportunities
+for community building and social learning. In this sense, community-based
+wireless technology may be considered a first step in the democratization of
+the local "institutional" platform through specific forms of representation as
+well as through direct participation in collective actions.
+
+DISCUSSION
+
+Virtual layers of interactions that are anchored at a specific location create
+a complex rhizome-like public space. In this space, moments of individual
+isolation and social exchanges overlap in a variety of ways, within a process
+of spatial appropriation. This makes it impossible to draw clear boundaries
+between the private and the public, if considered in terms of spatial use.
+Within a paradigm of more flexible boundaries between the public and the
+private, in this research note we have introduced the following three ideas
+that capture the dynamic transformation of urban space:
+
+ 1. The "right to the city" concept needs to be extended for the case of hybrid
+    urban space in the digital age, where the special characteristics of
+    wireless technology adds an interesting dimension.
+ 2. The hybrid sidewalk serves as a metaphor, and a target scenario for
+    developing and offering to the general public technologies that can help
+    address urban isolation and alienation without sacrificing privacy and
+    independence.
+ 3. Wireless technology can play a critical role in building locally owned and
+    participatory designed city networks that operate outside the public
+    Internet, which can fulfil some important requirements of a hybrid sidewalk
+    application.
+
+Stemming from these three concepts the most challenging question to address in
+the future is the extent to which one can imagine tangible possibilities, urban
+interaction design fictions (Smyth & Helgason, 2013), and structure the
+available design options at different levels so that the individual efforts by
+local authorities, organizations, and individuals can generate shared knowledge
+and improve the usability and customization options of the corresponding tools.
+For this, the question of interdisciplinarity in the design of the hybrid urban
+environment becomes urgent. Social scientists need to become more aware of the
+capabilities of technology and they have to get involved in the design
+processes, while engineers need to get in touch with legitimate local social
+issues and their inherent complexity going beyond simple optimization
+techniques and data analysis (see Antoniadis, Ott, & Passarella, 2014).
+
+Moreover, the size and complexity of the design space calls for a bottom-up
+design process consistent with the ideas developed in social learning
+(Friedmann, 1987); participatory design (Schuler & Namioka, 1993); and action
+research (Hearn et al., 2008) methodologies. At the same time, the development
+of a "hybrid" pattern language, which could combine the original ideas of
+Christopher Alexander (1979) with more recent approaches, ranging from
+high-level meta concepts (Schuler, 2008) to micro design details in software
+(Crumlish & Malone, 2009), might enhance the building of a new common language
+that will not only facilitate communications between researchers from different
+disciplines and practitioners, but also empower citizen-activists.
+
+What is missing in our vision is not new ideas for applications, interfaces and
+artefacts, but an innovation platform, a toolkit, that will enable citizens to
+unleash their creativity and local knowledge toward building novel hybrid
+spaces serving their own values and objectives. The research community can
+contribute significantly by drawing attention and providing credibility to the
+existing efforts of the FOSS communities around the world-and by sharing
+knowledge and expertise as well as investing more in usability and integration
+rather than in scientific novelty and differentiation. If successful, the
+widespread use of a common toolkit, as the one we aim to build in the context
+of the nethood.org project, will make conceivable the creation of an open data
+repository, a massive collection of optionally shared, privacy preserving, and
+localized, "small" instead of "big" data. This in turn can generate significant
+scientific knowledge on ICT-mediated human behaviour that is currently
+privately retained by companies, such as Facebook and Google.
+
+We see this note as part of a wider effort to join forces in building a common
+language of interdisciplinary studies around the design of DIY hybrid urban
+space, and to create a global network of researchers and practitioners who do
+not see technology as an end, but rather as a means to provide citizens with
+rights to the hybrid city.
+
+ACKNOWLEDGEMENTS
+
+This work was partially supported by the EINS Network of Excellence in Internet
+Science, FP7 grant 288021.
+
+ENDNOTES
+
+^1 http://superflux.in/work/yellowchair-stories
+^2The latest survey by the Pew Research Center's Internet Project provides
+interesting statistics on the use of location-based services, including the
+so-called "geosocial services", in the US in the period 2011-2013: http://
+www.pewinternet.org/2013/09/12/location-based-services/
+^3 Note that de Waal & de Lange's definition of the concept of ownership is
+inspired by Henri Lefebvre's distinction between the right to appropriation and
+the right to property (Lefebvre, 1996). In our work, we would like to build on
+this interpretation of ownership, and understand the theoretical and practical
+implications of the fact that a local wireless network, and the digital
+information hosted on it, can be actually owned by small organizations, groups,
+even individuals. In other words, the "right to property" in the virtual space,
+can be less difficult to grant, if compared to the case of contested physical
+space. However, out of the practically unlimited parallel virtual spaces that
+could overlay a specific location, only a few will be really "inhabited" in
+practice: those that will manage to attract the most attention and a critical
+mass of local users. Then big corporations will always have a competitive
+advantage in terms of available resources and expertise, at least in places
+where Internet is easily accessible. But wireless technology provides the
+option for grassroots initiatives to peacefully propose their alternative,
+potentially more inclusive, (hybrid) designs drawing on local knowledge and
+their social, instead of commercial, objectives.
+^4 See: http://www.socialstreet.it/international/info-english/
+^5 See: http://oti.newamerica.net/blogposts/2013/
+case_study_red_hook_initiative_wifi_tidepools-78575
+^6 See: http://arstechnica.com/tech-policy/2011/01/
+piratebox-an-artistic-provocation-in-lunchbox-form/
+
+REFERENCES
+
+Alexander, C. (1979). The timeless way of building. Oxford, UK: Oxford
+University Press.
+Antoniadis, P., et al. (2008). Community building over Neighborhood Wireless
+Mesh Networks. IEEE Society & Technology, 27(1), 48-56.
+Antoniadis, P., Ott, J., & Passarella, A. (2014). Do It Yourself networking: an
+interdisciplinary approach (Dagstuhl Seminar 14042), Dagstuhl Reports, 4 (1),
+125-151.
+Antoniadis, P., Apostol, I, Unteidig, A., & Joost, G. (2014). CONTACT:
+Facilitating Information Sharing Between Strangers Using Hyperlocal Community
+Wireless Networks. UrbanIxD Symposium 2014, Venice, Italy.
+Antoniadis, P. & Apostol, I. (2013). The Neighbourhood Game: from Behavioural
+Economics to Urban Planning. In Proceedings of 1st International Conference on
+Internet Science (pp. 153-162). Brussels: The FP7 European Network of
+Excellence in Internet Science.
+Apostol, I., Antoniadis, P., & Banerjee, T. (2013). Flanerie between Net and
+Place: Promises and Possibilities for Participation in Planning. Journal of
+Planning Education and Research, 33 (1), 20-33.
+Baldwin, J. (2011). TidePools: Social WiFi, Parsons The New School for Design:
+Master Thesis. Available at http://www.scribd.com/doc/94601219/
+TidePools-Social-WiFi-Thesis.
+Brenner, N., Marcuse, P., & Mayer, M. (eds.). (2012). Cities for People, Not
+for Profit: Critical Urban Theory and the Right to the City. New Yirk:
+Routledge.
+Brenner, N. & Christian Schmid, C. (2011). Planetary Urbanisation. In M. Gandy
+(Ed.), Urban Constellation (pp. 10-13). New York: Distributed Art Pub
+Incorporated.
+Castells, M. (2005). Space of Flows, Space of Places: Materials for a Theory of
+Urbanism in the Information Age. In S. Bishwapriya (ed.), Comparative Planning
+Cultures pp. 45-63). New York: Routledge.
+de Certeau, M. (1984). Walking in the City. In Gieseking et al. (Eds). The
+People, Place, and Space Reader. New York: Routledge.
+de Cindio, F., & Schuler, D. (2012). Beyond Community Networks: From Local to
+Global, from Participation to Deliberation. The Journal of Community
+Informatics, 8(3).
+Clemons, E. (2013). Online Profiling and Invasion of Privacy: The Myth of
+Anonymization. The Huffington Post. Available online at http://
+www.huffingtonpost.com/eric-k-clemons/internet-targeted-ads_b_2712586.html
+Crawford, A. (2008). Taking Social Software to the Streets: Mobile Cocooning
+and the (An-)Erotic City. Journal of Urban Technology, 15(3), 79-97.
+Crumlish, C., & Malone, E. (2009). Designing Social Interfaces. Newton, MA:
+O'Reilley Media, Inc.
+Debord, G. (1996). Theory of the Dérive. In Libero Andreotti & Xavier Costa
+(Eds.), Theory of the Dérive and other situationist writings on the city.
+Barcelona: ACTAR.
+Farman, J. (2012). Mobile Interface Theory: Embodied Space and Locative Media.
+New York: Routledge.
+Forlano, L. (2008). Anytime? Anywhere?: Reframing Debates Around Municipal
+Wireless Networking , The Journal of Community Informatics, 4(1).
+Foth, M. (Ed.). (2009). Handbook of Research on Urban Informatics: The Practice
+and Promise of the Real-Time City. Hershey, PA: IGI Global.
+Foth, M., Forlano, L., Satchell, C., & Gibbs, M. (Eds.). (2012). From Social
+Butterfly to Engaged Citizen: Urban Informatics, Social Media, Ubiquitous
+Computing, and Mobile Technology to Support Citizen Engagement. Cambridge, MA:
+MIT Press.
+Friedmann, J. (1987). Planning in the Public Domain: from Knowledge to Action.
+Princeton NJ: Princeton University Press.
+Friedmann, J. (1993). The right to the city. In M. Morse & J. Hardoy (Eds.),
+Rethinking the Latin American city(pp. 135-151). Baltimore: Johns Hopkins
+University Press.
+Gaved, M., & Mulholland, P. (2008). Pioneers, subcultures, and cooperatives:
+the grassroots augmentation of urban places. In A. Aurigi & F. De Cindio
+(Eds.), Augmented urban spaces: articulating the physical and electronic city
+(pp. 171-184). Surrey, UK: Ashgate.
+Goffman, E. 2005 [1967]. Interaction Ritual: Essays in face-to-face behavior.
+New Brunswick and London: AldineTransaction.
+Gurstein, M. (Ed). (2010). Community informatics: enabling communities with
+information and communication technologies. Hershey, PA: Idea Group.
+Harvey, D. (2008). The right to the city. New Left Review, 53, 23-40.
+Hearn, G., Tacchi, J., Foth, M., & Lennie, J. (2008). Action Research and New
+Media: Concepts, Methods and Cases. New York: Hampton Press.
+Horelli, L. (Ed.). (2013). New Approaches to Urban Planning: Insights from
+Participatory Communities. Helsinki: Aalto University.
+Houghton, K., Miller, I., & Foth, M. (2013). Appropriating Digital Technologies
+for Urban Planning: Information and Communication Tools. New York: Routledge.
+Jacobs, J. (1961). The Death and Life of Great American Cities. New York:
+Random House.
+Jungnickel, K. (2014). DIY WIFI: Re-imagining Connectivity. London, UK:
+Palgrave Pivot.
+de Lange, M., & de Waal, M., (2013). Owning the city: New media and citizen
+engagement in urban design. First Monday, 18(11).
+Lefebvre, H. (1991 [1974]). The Production of Space. Oxford, UK: Blackwell
+Publishers.
+Lefebvre, H. (1996 [1968]). The right to the city. In H. Lefebvre (auth), E.
+Kofman & E. Lebas (Eds.), Writings on Cities (63-184). Cambridge, MA:
+Blackwell.
+Lefebvre, H. (2003 [1970]). The Urban Revolution. Minneapolis-St.Paul:
+University of Minnesota Press.
+Lynch, Kevin. (1960). The Image of the City. Cambridge, MA: MIT Press.
+Mansell, R. (2012). Imagining the Internet: Communication, Innovation, and
+Governance. Oxford University Press.
+Morozov, E. (2013). To Save Everything Click Here: The Folly of Technological
+Solutionism. New York: Public Affairs.
+van Oost, E., Verhaegh, S., & Oudshoorn, N. (2009). From Innovation Community
+to Community Innovation User-initiated Innovation in Wireless Leiden. Science,
+Technology, & Human Values, vol. 34 (2), 182-205.
+Powell, A. (2011). Metaphors, Models and Communicative Spaces: Designing local
+wireless infrastructure. Canadian Journal of Communication, 36(1).
+Rainie, L., & Wellman, B. (2012). Networked: The New Social Operating System.
+Cambridge, MA: MIT Press.
+Saad-Sulonen, J. & Botero, A. (2010). The Urban Mediator as a tool for public
+participation: a case of collaboration between designers and city planners. In
+S. Wallin, L. Horelli and J. Saad-Sulonen (Eds.), Digital Tools in
+Participatory Planning. Helsinki: Aalto University.
+Sandvig, C. (2004). An initial assessment of cooperative action in wi-fi
+networking. Telecommunications Policy, 28(7/8), 579-602.
+Sansot, P. (2004). Poétique de la ville. Paris: Payot.
+Schmid, C. (2012). Henri Lefebvre, the right to the city, and the new
+metropolitan mainstream. In Brenner et al. (Eds.), Cities for people, not for
+profit (pp. 42-62). New York: Routledge.
+Schuler, D. & Namioka, A. (1993). Participatory design: Principles and
+practices. Hillsdale, NJ: Erlbaum.
+Schuler, D. (2008). Liberating Voices: A Pattern Language for Communication
+Revolution. Cambridge, MA: MIT Press.
+Sennett, R. (1992 [1977]). (2nd ed.) The Fall of Public Man. NY: W.W. Norton &
+Company.
+Shirky, C. (2008). Here Comes Everybody: The Power of Organizing Without
+Organizations. New York: Penguin Press.
+Simmel, G. (1971 [1903]). The Stranger. In D. N. Levine (Ed.), On Individuality
+and Social Forms (pp. 324-340). Chicago: University of Chicago Press.
+Smyth, M. & Helgason, I. (2013). Tangible possibilities - envisioning
+interactions in public space, Digital Creativity, 24 (1).
+Stross, R. (2012). Meet Your Neighbors, if Only Online. The New York Times, May
+13, 2012, page BU3 (New York edition). Available at http://www.nytimes.com/2012
+/05/13/business/on-nextdoorcom-social-networks-for-neighbors.html?_r=0
+Tufekci, Z. (2014). Engineering the public: Big data, surveillance, and
+computational politics. First Monday, 19 (7).
+Turkle, S. (1995). Life on the screen: Identity in the age of the Internet. New
+York: Simon & Schuster.
+Turkle, S. (2011). Alone Together: Why We Expect More from Technology and Less
+from Each Other. New York: Basic Books.
+Unteidig, A., Schubert, J., Sametinger, F., Joost, G., Reiter, L., & Sossa, J.
+(2014). Hybrid Letterbox. Aveiro: Cumulus Conference.
+Whyte, W. H. (1988). City: Rediscovering the Center, New York: Doubleday
+Wilken, R. (2010). A Community of Strangers? Mobile Media, Art, Tactility and
+Urban Encounters with the Other. Mobilities, 5(4), 449-478.
